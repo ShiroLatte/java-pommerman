@@ -160,7 +160,7 @@ public class Evolution {
             }
             // If we should keep best individuals of parents + offspring, then combine array
             offspring = Utilities.add_array_to_array(population, offspring, startIdx);
-            Arrays.sort(offspring, Comparator.reverseOrder());
+            Arrays.sort(offspring, Collections.reverseOrder()); //cambiar comparator a collections
         }
 
         // Combine population with offspring, we keep only best individuals. If parents should not be kept, new
@@ -173,7 +173,7 @@ public class Evolution {
 
         if (params.elitism && params.keep_parents_next_gen && params.population_size > 1) {
             // If parents were kept to new generation and we had elites, population needs sorting again
-            Arrays.sort(population, Comparator.reverseOrder());
+            Arrays.sort(population, Collections.reverseOrder()); //cambiar comparator a collections
         }
     }
 
