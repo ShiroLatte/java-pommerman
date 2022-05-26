@@ -3,6 +3,7 @@ package players.rhea.evo;
 import players.rhea.utils.RHEAParams;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 import java.util.function.BiFunction;
@@ -68,7 +69,7 @@ class Selection {
         for (int i = 0; i < params.tournament_size; i++) {
             tournament_pop[i] = population[random.nextInt(population.length)];
         }
-        Arrays.sort(tournament_pop, Comparator.reverseOrder());
+        Arrays.sort(tournament_pop, Collections.reverseOrder());
         prob = random.nextFloat();
 
         return apply_selection(tournament_pop, this::tournament_prob);
