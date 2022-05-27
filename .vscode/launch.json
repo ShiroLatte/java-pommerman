@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Run",
+            "request": "launch",
+            "mainClass": "Run",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "network.Server",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntArrayPattern",
+            "request": "launch",
+            "mainClass": "players.optimisers.ntbea.IntArrayPattern",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunNTBEA",
+            "request": "launch",
+            "mainClass": "players.optimisers.ntbea.RunNTBEA",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunPlayerSolution",
+            "request": "launch",
+            "mainClass": "players.optimisers.ntbea.RunPlayerSolution",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Crossover",
+            "request": "launch",
+            "mainClass": "players.rhea.evo.Crossover",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Individual",
+            "request": "launch",
+            "mainClass": "players.rhea.evo.Individual",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selection",
+            "request": "launch",
+            "mainClass": "players.rhea.evo.Selection",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RHEAParams",
+            "request": "launch",
+            "mainClass": "players.rhea.utils.RHEAParams",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch GameView",
+            "request": "launch",
+            "mainClass": "utils.GameView",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelGenerator",
+            "request": "launch",
+            "mainClass": "utils.LevelGenerator",
+            "projectName": "java-pommerman_ff1b435d"
+        },
+        {
+            "type": "java",
+            "name": "Launch Picker",
+            "request": "launch",
+            "mainClass": "utils.Picker",
+            "projectName": "java-pommerman_ff1b435d"
+        }
+    ]
+}
